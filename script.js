@@ -12,7 +12,8 @@ function randomizer () {
   /* compare the two variables after the users input */
   if (randomNumber === userInput) {
     document.getElementById('answer').innerHTML = 'You win !'
-  } if (randomNumber !== userInput); {
+  }
+  if (randomNumber !== userInput); {
     document.getElementById('answer').innerHTML = 'Try again'
   }
 }
