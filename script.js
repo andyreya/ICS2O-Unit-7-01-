@@ -13,7 +13,7 @@ function randomizer () {
   if (randomNumber === userInput) {
     document.getElementById('answer').innerHTML = 'You win !'
   }
-  if (randomNumber !== userInput); {
+  if (randomNumber !== userInput) {
     document.getElementById('answer').innerHTML = 'Try again'
   }
 }
