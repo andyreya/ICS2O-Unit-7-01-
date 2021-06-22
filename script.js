@@ -11,8 +11,8 @@ function randomizer () {
   randomNumber = (Math.random() * 6) + 1
   /* compare the two variables after the users input */
   if (randomNumber === userInput) {
-    document.getElementById('answer').innerHTML = 'You win !'
-  } 
+    document.getElementById('answer').innerHTML = 'You win !' 
   else (randomNumber !== userInput)
   document.getElementById('answer').innerHTML = 'Try again'
+  }
 }
